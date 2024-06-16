@@ -1,6 +1,6 @@
-#.env
+.env
 node_modules
-#config.json
+config.json
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -14,7 +14,3 @@ node_modules
 
 #!.yarn/cache
 .pnp.*
-
-# dotenv
-.env
-config.json
