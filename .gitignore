@@ -14,5 +14,7 @@ node_modules
 
 #!.yarn/cache
 .pnp.*
+
 # dotenv
 .env
+config.json

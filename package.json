@@ -1,5 +1,5 @@
 {
-  "name": "potatossh",
+  "name": "kvass",
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5",
