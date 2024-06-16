@@ -1,0 +1,35 @@
+{
+  "name": "potatossh",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.2"
+  },
+  "description": "General Discord bot",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "scripts": {
+    "deploy": "node deploy-commands.ts",
+    "index": "node index.ts",
+    "start": "node deploy-commands.ts && node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slashpotato/discordbot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discord.js"
+  ],
+  "author": "slashpotato <slashpotato@proton.me>",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/slashpotato/discordbot/issues"
+  },
+  "homepage": "https://github.com/slashpotato/discordbot#readme",
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
