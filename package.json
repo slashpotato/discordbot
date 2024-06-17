@@ -7,14 +7,14 @@
   },
   "description": "General Discord bot",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.js",
   "devDependencies": {
     "eslint": "^8.57.0"
   },
   "scripts": {
-    "deploy": "node deploy-commands.ts",
-    "index": "node index.ts",
-    "start": "node deploy-commands.ts && node index.ts"
+    "deploy": "node deploy-commands.js",
+    "index": "node index.js",
+    "start": "node deploy-commands.js && node index.js"
   },
   "repository": {
     "type": "git",
