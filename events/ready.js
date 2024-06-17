@@ -10,7 +10,7 @@ module.exports = {
 			status: 'dnd',
 		});
 		const timestamp = Date.now();
-		client.channels.cache.get(process.env.LOG_CHANNEL).send('<t:' + timestamp + ':f> Started bot');
+		client.channels.cache.get(process.env.LOG_CHANNEL).send('[<t:' + timestamp + ':f>] Started bot');
 		console.log(`Ready! Logged in as ${client.user.tag}`);
 	},
 };
